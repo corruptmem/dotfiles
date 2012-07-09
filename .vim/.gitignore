@@ -1,0 +1,9 @@
+.DS_Store
+old
+.netrwhist
+.VimballRecord
+tmp
+backup
+doc/tags
+*.o
+*.bundle
