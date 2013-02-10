@@ -83,3 +83,5 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 if has("gui_running")
     set guioptions=egmrt
 endif
+
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
